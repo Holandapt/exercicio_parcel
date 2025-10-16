@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio_Parcel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
 </head>
 <body>
-    <h1>Ola mundo</h1>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./imagens/logo.jpg" alt="Logo de Planeta">
+            <p class="hero__text">Está chegando o grande dia!</p>
+            <div class="info-bar">
+                <ul class="info-bar__infor">
+                    <li class="info-bar__infor__item">
+                        <b>Localização</b>
+                        Braga - Portugal
+                    </li>
+                    <li class="info-bar__infor__item">
+                        <b>Quando</b>
+                        29-11-2025 ás 19hrs
+                    </li>
+                </ul>
+                <a href="" class="button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__tittle">O evento começa em</h2>
+                <span id="contador"></span>
+            </div>
+            <a href="" class="button--primary">
+                Confirme sua presença
+            </a>
+        </div>
+    </section>
 
 <script src="./scripts/main.js"></script>
 </body>
