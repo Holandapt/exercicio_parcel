@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/main.scss">
 </head>
 <body>
     <header class="hero">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
             <img class="hero__logo" src="./imagens/logo.jpg" alt="Logo de Planeta">
             <p class="hero__text">Está chegando o grande dia!</p>
             <div class="info-bar">
@@ -32,17 +33,17 @@
         </div>
     </header>
     <section class="event">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
             <div class="event__details">
                 <h2 class="event__details__tittle">O evento começa em</h2>
                 <span id="contador"></span>
             </div>
-            <a href="" class="button--primary">
-                Confirme sua presença
+            <a href="" class="button">
+                Confirmar  presença
             </a>
         </div>
     </section>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="./scripts/main.js"></script>
 </body>
 </html>
